@@ -1,0 +1,88 @@
+/* position プロパティ: 要素の配置方法を制御 */
+
+/* static: デフォルト値、通常のドキュメントフローに従う */
+.position-static {
+    position: static;
+    /* top, right, bottom, left プロパティは効果なし */
+}
+
+/* relative: 通常の位置からの相対的な位置指定 */
+.position-relative {
+    position: relative;
+    top: 10px;    /* 通常の位置から10px下に移動 */
+    left: 20px;   /* 通常の位置から20px右に移動 */
+    /* 元の位置はレイアウト上保持される */
+}
+
+/* absolute: 最も近い position 指定された親要素を基準に配置 */
+.position-absolute {
+    position: absolute;
+    top: 0;       /* 親要素の上端から0px */
+    right: 0;     /* 親要素の右端から0px */
+    /* ドキュメントフローから外れる */
+}
+
+/* absolute の親コンテナ */
+.relative-container {
+    position: relative; /* 子要素の absolute の基準となる */
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+/* fixed: ビューポート（画面）を基準に固定配置 */
+.position-fixed {
+    position: fixed;
+    bottom: 20px;  /* 画面の下から20px */
+    right: 20px;   /* 画面の右から20px */
+    /* スクロールしても位置が固定される */
+    background-color: #2196F3;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* sticky: スクロールに応じて relative と fixed を切り替え */
+.position-sticky {
+    position: sticky;
+    top: 0;        /* 上端に到達したら固定 */
+    background-color: #4CAF50;
+    padding: 10px;
+    /* スクロールで上端に到達すると固定される */
+}
+
+/* z-index: 要素の重なり順を制御（position指定時のみ有効） */
+.z-index-example {
+    position: relative;
+    z-index: 10;   /* 数値が大きいほど前面に表示 */
+}
+
+/* 実用例: モーダルオーバーレイ */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明の黒 */
+    z-index: 1000;
+}
+
+.modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 中央配置 */
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    z-index: 1001; /* オーバーレイより前面 */
+}
+
+/* 使用例:
+<div class="relative-container">
+    <div class="position-absolute">絶対配置の要素</div>
+</div>
+<div class="position-fixed">固定配置のボタン</div>
+<div class="position-sticky">スティッキーヘッダー</div>
+*/

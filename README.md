@@ -8,10 +8,10 @@ HTML、CSS、JavaScript、TypeScriptの基本文法を学ぶためのサンプ�
 
 ```
 my_basic_learn/
-├── html/          # HTMLの基本要素のサンプル
-├── css/           # CSSの基本プロパティとレイアウトのサンプル
-├── javascript/    # JavaScriptの基本文法のサンプル
-└── typescript/    # TypeScriptの型システムと文法のサンプル
+├── html/          # 10 samples: structure, headings, paragraphs, links, images, lists, forms, tables, div/span, semantic tags
+├── css/           # 9 samples: selectors, colors, box model, display, flexbox, grid, typography, position, transitions
+├── javascript/    # 10 samples: variables, functions, arrays, objects, conditionals, loops, closures, string methods, array methods, async
+└── typescript/    # 12 samples: basic types, functions, interfaces, classes, enums, generics, closures, companion object, branded types, unions/intersections, type guards, utility types
 ```
 
 ## 🎯 学習方針
@@ -24,19 +24,19 @@ my_basic_learn/
 
 ### HTML（html/）
 HTMLの基本的なタグと構造を学びます。
-- 基本構造、見出し、段落、リンク、画像、リスト、フォームなど
+- 基本構造、見出し、段落、リンク、画像、リスト、フォーム、テーブル、div/span、セマンティックタグなど
 
 ### CSS（css/）
 CSSのスタイリングとレイアウト手法を学びます。
-- セレクタ、色、ボックスモデル、display、Flexbox、Gridなど
+- セレクタ、色、ボックスモデル、display、Flexbox、Grid、タイポグラフィ、position、トランジションなど
 
 ### JavaScript（javascript/）
 JavaScriptの基本文法とプログラミング概念を学びます。
-- 変数、関数、配列、オブジェクト、条件分岐、ループ、クロージャなど
+- 変数、関数、配列、オブジェクト、条件分岐、ループ、クロージャ、文字列メソッド、配列メソッド、非同期処理など
 
 ### TypeScript（typescript/）
 TypeScriptの型システムとオブジェクト指向プログラミング、デザインパターンを学びます。
-- 基本型、関数、インターフェース、クラス、Enum、ジェネリクス、クロージャ、コンパニオンオブジェクト、ブランド型など
+- 基本型、関数、インターフェース、クラス、Enum、ジェネリクス、クロージャ、コンパニオンオブジェクト、ブランド型、ユニオン型/交差型、型ガード、ユーティリティ型など
 
 ## 🚀 使い方
 

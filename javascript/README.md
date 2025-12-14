@@ -41,6 +41,21 @@
    - プライベート変数パターン
    - 関数ファクトリー
 
+8. **08_string_methods.js** - 文字列メソッド
+   - length、toUpperCase/toLowerCase
+   - slice、replace、split、trim
+   - includes、startsWith/endsWith
+
+9. **09_array_methods.js** - 配列メソッド
+   - map、filter、reduce
+   - forEach、find、some/every
+   - join、concat、slice
+
+10. **10_async.js** - 非同期処理
+    - setTimeout
+    - Promise（then/catch）
+    - async/await
+
 ## 実行方法
 
 ### Node.jsで実行

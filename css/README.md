@@ -36,6 +36,21 @@
    - grid-template-columns/rows
    - gap
 
+7. **07_typography.css** - タイポグラフィ
+   - フォントファミリー、サイズ、ウェイト
+   - テキスト配置、行の高さ
+   - テキスト装飾
+
+8. **08_position.css** - positionプロパティ
+   - static、relative、absolute
+   - fixed、sticky
+   - z-index
+
+9. **09_transition.css** - CSSトランジション
+   - プロパティの変化をアニメーション
+   - イージング関数
+   - ホバーエフェクト
+
 ## 使い方
 
 各CSSファイルには、スタイルの定義とコメントで説明が記載されています。

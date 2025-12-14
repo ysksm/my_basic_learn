@@ -31,6 +31,18 @@
    - form要素を使ったユーザー入力の収集
    - input要素とlabel要素
 
+8. **08_table.html** - テーブルタグ
+   - table要素を使った表の作成
+   - thead、tbody、tr、th、td
+
+9. **09_div_span.html** - divとspanタグ
+   - div要素（ブロックレベルコンテナ）
+   - span要素（インラインレベルコンテナ）
+
+10. **10_semantic.html** - セマンティックタグ
+    - header、nav、main、article、aside、footer
+    - 意味のあるHTML構造
+
 ## 使い方
 
 各HTMLファイルをブラウザで開くと、その要素の動作を確認できます。

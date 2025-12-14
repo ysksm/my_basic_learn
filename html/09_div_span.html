@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>divとspanタグ</title>
+    <style>
+        .container { background-color: lightblue; padding: 10px; margin: 10px 0; }
+        .highlight { background-color: yellow; }
+    </style>
+</head>
+<body>
+    <h1>divとspanの使い方</h1>
+    
+    <h2>div要素（ブロックレベル）</h2>
+    <!-- div要素: ブロックレベルのコンテナ -->
+    <!-- 複数の要素をグループ化し、レイアウトやスタイリングに使用 -->
+    <!-- 縦に並び、横幅いっぱいに広がる -->
+    <div class="container">
+        <h3>セクション1</h3>
+        <p>これはdiv要素の中の段落です。</p>
+    </div>
+    
+    <div class="container">
+        <h3>セクション2</h3>
+        <p>別のdiv要素の中の段落です。</p>
+    </div>
+    
+    <h2>span要素（インラインレベル）</h2>
+    <!-- span要素: インラインレベルのコンテナ -->
+    <!-- テキストの一部をグループ化し、スタイリングに使用 -->
+    <!-- 横に並び、コンテンツの幅だけを占める -->
+    <p>
+        この文章の<span class="highlight">この部分だけ</span>を
+        span要素でハイライトしています。
+    </p>
+    
+    <p>
+        span要素は<span style="color: red; font-weight: bold;">特定の単語</span>や
+        <span style="color: blue; text-decoration: underline;">フレーズ</span>に
+        スタイルを適用するのに便利です。
+    </p>
+</body>
+</html>

@@ -52,6 +52,21 @@
    - スマートコンストラクタ
    - バリデーション付き型
 
+10. **10_union_intersection.ts** - ユニオン型と交差型
+    - ユニオン型（|）の使い方
+    - 交差型（&）の使い方
+    - 判別可能なユニオン型
+
+11. **11_type_guards.ts** - 型ガード
+    - typeof、instanceof
+    - in 演算子
+    - カスタム型ガード関数
+
+12. **12_utility_types.ts** - ユーティリティ型
+    - Partial、Required、Readonly
+    - Pick、Omit、Record
+    - ReturnType、Parameters
+
 ## 実行方法
 
 ### TypeScriptのコンパイルと実行
