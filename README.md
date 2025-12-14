@@ -40,12 +40,18 @@ TypeScriptの型システムとオブジェクト指向プログラミング、�
 
 ## 🚀 使い方
 
-### デモページを見る
+### 🌐 GitHub Pagesでデモを見る
+このプロジェクトはGitHub Pagesで公開されています：
+**https://ysksm.github.io/my_basic_learn/**
+
+オンラインでサンプルの実行結果を確認できます。
+
+### ローカルでデモページを見る
 ```bash
 # ブラウザでデモページを開く
-open demo.html
+open index.html
 ```
-`demo.html`は各サンプルを組み合わせた実践的なデモページです。
+`index.html`は各サンプルを組み合わせた実践的なデモページです（`demo.html`と同じ内容です）。
 
 ### 各サンプルを個別に学ぶ
 各フォルダのREADME.mdに詳細な使い方が記載されています。
