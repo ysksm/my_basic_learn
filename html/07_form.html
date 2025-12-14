@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>フォームタグ</title>
+</head>
+<body>
+    <h1>フォームの使い方</h1>
+    
+    <!-- form要素: ユーザー入力を収集するためのフォームを作成 -->
+    <!-- action属性: フォーム送信先のURL -->
+    <!-- method属性: HTTPメソッド（GET/POST） -->
+    <form action="#" method="post">
+        
+        <!-- label要素: 入力欄のラベル -->
+        <!-- for属性: 関連する入力欄のidを指定 -->
+        <label for="username">ユーザー名:</label>
+        <!-- input要素: 入力欄を作成 -->
+        <!-- type属性: 入力の種類を指定 -->
+        <!-- id属性: 要素を一意に識別 -->
+        <!-- name属性: サーバーに送信される際のキー名 -->
+        <input type="text" id="username" name="username">
+        <br><br>
+        
+        <label for="password">パスワード:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        
+        <!-- button要素: ボタンを作成 -->
+        <!-- type="submit": フォームを送信するボタン -->
+        <button type="submit">送信</button>
+    </form>
+</body>
+</html>

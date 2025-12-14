@@ -1,0 +1,40 @@
+/* CSS Grid: 2次元のグリッドレイアウトを作成 */
+
+/* グリッドコンテナ: グリッドレイアウトを定義する親要素 */
+.grid-container {
+    display: grid; /* CSS Gridを有効にする */
+    
+    /* grid-template-columns: 列の数とサイズを定義 */
+    grid-template-columns: 1fr 1fr 1fr; /* 3つの等幅の列 */
+    /* 1fr = 利用可能なスペースの1分の1 */
+    /* その他の例: 200px 1fr 2fr（固定幅と可変幅の組み合わせ） */
+    
+    /* grid-template-rows: 行の数とサイズを定義 */
+    grid-template-rows: 100px 100px; /* 2つの100px高さの行 */
+    
+    /* gap: グリッドアイテム間の間隔 */
+    gap: 10px; /* 行と列の間に10pxの間隔 */
+    /* または: row-gap と column-gap で個別指定 */
+    
+    /* 見やすくするためのスタイル */
+    background-color: lightgray;
+    padding: 10px;
+}
+
+/* グリッドアイテム: グリッドコンテナの子要素 */
+.grid-item {
+    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid blue;
+}
+
+/* 使用例:
+<div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+</div>
+*/

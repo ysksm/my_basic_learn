@@ -1,0 +1,40 @@
+/* display プロパティ: 要素の表示方法を制御 */
+
+/* block: ブロックレベル要素として表示（縦に並ぶ、幅いっぱいに広がる） */
+.display-block {
+    display: block;
+    width: 100%; /* 幅いっぱい */
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* inline: インライン要素として表示（横に並ぶ、幅と高さは指定できない） */
+.display-inline {
+    display: inline;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+/* inline-block: インラインだが幅と高さを指定できる */
+.display-inline-block {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: lightcoral;
+    margin: 5px;
+}
+
+/* none: 要素を非表示にする（レイアウトから削除） */
+.display-none {
+    display: none; /* この要素は表示されず、スペースも占めない */
+}
+
+/* 使用例:
+<div class="display-block">ブロック要素1</div>
+<div class="display-block">ブロック要素2（縦に並ぶ）</div>
+<span class="display-inline">インライン1</span>
+<span class="display-inline">インライン2（横に並ぶ）</span>
+<div class="display-inline-block">IB1</div>
+<div class="display-inline-block">IB2（横に並び、サイズ指定可能）</div>
+*/
