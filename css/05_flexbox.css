@@ -1,0 +1,41 @@
+/* Flexbox: 柔軟なレイアウトを作成するためのCSS */
+
+/* フレックスコンテナ: 子要素を柔軟に配置する親要素 */
+.flex-container {
+    display: flex; /* Flexboxを有効にする */
+    
+    /* justify-content: 主軸（横方向）の配置を制御 */
+    justify-content: space-between; /* 両端揃え */
+    /* その他のオプション: flex-start, flex-end, center, space-around, space-evenly */
+    
+    /* align-items: 交差軸（縦方向）の配置を制御 */
+    align-items: center; /* 中央揃え */
+    /* その他のオプション: flex-start, flex-end, stretch, baseline */
+    
+    /* flex-direction: 配置方向を制御 */
+    flex-direction: row; /* 横方向（デフォルト） */
+    /* その他のオプション: column（縦方向）, row-reverse, column-reverse */
+    
+    /* 見やすくするためのスタイル */
+    background-color: lightgray;
+    padding: 10px;
+    height: 200px;
+}
+
+/* フレックスアイテム: フレックスコンテナの子要素 */
+.flex-item {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 5px;
+    
+    /* flex: 成長率 縮小率 基本サイズ */
+    flex: 1; /* 利用可能なスペースを均等に分配 */
+}
+
+/* 使用例:
+<div class="flex-container">
+    <div class="flex-item">アイテム1</div>
+    <div class="flex-item">アイテム2</div>
+    <div class="flex-item">アイテム3</div>
+</div>
+*/

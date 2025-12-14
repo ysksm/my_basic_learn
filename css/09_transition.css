@@ -1,0 +1,124 @@
+/* CSS Transition: プロパティの変化を滑らかにアニメーション */
+
+/* 基本的なトランジション */
+.transition-basic {
+    background-color: lightblue;
+    padding: 20px;
+    
+    /* transition: プロパティ 時間 イージング関数 遅延 */
+    transition: background-color 0.3s ease;
+    /* 0.3秒かけて背景色を変化させる */
+}
+
+.transition-basic:hover {
+    background-color: lightcoral; /* ホバー時の色 */
+}
+
+/* 複数のプロパティをトランジション */
+.transition-multiple {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    
+    /* 複数のプロパティを個別に指定 */
+    transition: width 0.5s ease, 
+                height 0.5s ease, 
+                background-color 0.3s ease;
+}
+
+.transition-multiple:hover {
+    width: 150px;
+    height: 150px;
+    background-color: #e74c3c;
+}
+
+/* すべてのプロパティにトランジション適用 */
+.transition-all {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border-radius: 5px;
+    
+    transition: all 0.3s ease; /* すべてのプロパティが対象 */
+}
+
+.transition-all:hover {
+    padding: 15px 30px;
+    background-color: #229954;
+    transform: scale(1.05); /* 1.05倍に拡大 */
+}
+
+/* イージング関数（変化の速度曲線） */
+.easing-ease {
+    transition: transform 0.5s ease; /* ゆっくり始まり、ゆっくり終わる */
+}
+
+.easing-linear {
+    transition: transform 0.5s linear; /* 一定の速度 */
+}
+
+.easing-ease-in {
+    transition: transform 0.5s ease-in; /* ゆっくり始まる */
+}
+
+.easing-ease-out {
+    transition: transform 0.5s ease-out; /* ゆっくり終わる */
+}
+
+.easing-ease-in-out {
+    transition: transform 0.5s ease-in-out; /* ゆっくり始まり、ゆっくり終わる */
+}
+
+/* 実用例: ボタンのホバーエフェクト */
+.button-hover {
+    background-color: #2196F3;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    transition: all 0.3s ease;
+}
+
+.button-hover:hover {
+    background-color: #1976D2;
+    transform: translateY(-2px); /* 2px上に移動 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 影を追加 */
+}
+
+/* 実用例: カードのホバーエフェクト */
+.card-hover {
+    width: 200px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    
+    transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px); /* 5px上に浮く */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* 大きな影 */
+    border-color: #2196F3; /* 枠線の色を変更 */
+}
+
+/* 遅延を使ったトランジション */
+.transition-delay {
+    background-color: #9b59b6;
+    padding: 20px;
+    
+    transition: background-color 0.3s ease 0.2s; /* 0.2秒後に開始 */
+}
+
+.transition-delay:hover {
+    background-color: #8e44ad;
+}
+
+/* 使用例:
+<div class="transition-basic">ホバーしてください</div>
+<div class="transition-multiple">サイズと色が変わります</div>
+<button class="button-hover">ホバーボタン</button>
+<div class="card-hover">カード</div>
+*/

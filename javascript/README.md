@@ -1,0 +1,69 @@
+# JavaScriptサンプル集
+
+このフォルダには、JavaScriptの基本的な文法を学ぶためのサンプルファイルが含まれています。
+各ファイルは1つの概念に焦点を当てています。
+
+## サンプル一覧
+
+1. **01_variables.js** - 変数の宣言
+   - let（再代入可能）
+   - const（再代入不可能）
+   - var（古い書き方）
+
+2. **02_functions.js** - 関数の定義と呼び出し
+   - 関数宣言
+   - 関数式
+   - アロー関数
+
+3. **03_arrays.js** - 配列の使い方
+   - 配列の作成とアクセス
+   - push/popメソッド
+   - ループ処理
+
+4. **04_objects.js** - オブジェクトの使い方
+   - オブジェクトの作成
+   - プロパティのアクセス
+   - メソッドの定義
+
+5. **05_conditionals.js** - 条件分岐
+   - if文
+   - if-else文
+   - 比較演算子と論理演算子
+
+6. **06_loops.js** - ループ（繰り返し処理）
+   - for文
+   - while文
+   - for...of文
+   - break/continue
+
+7. **07_closures.js** - クロージャ
+   - クロージャの基本概念
+   - プライベート変数パターン
+   - 関数ファクトリー
+
+8. **08_string_methods.js** - 文字列メソッド
+   - length、toUpperCase/toLowerCase
+   - slice、replace、split、trim
+   - includes、startsWith/endsWith
+
+9. **09_array_methods.js** - 配列メソッド
+   - map、filter、reduce
+   - forEach、find、some/every
+   - join、concat、slice
+
+10. **10_async.js** - 非同期処理
+    - setTimeout
+    - Promise（then/catch）
+    - async/await
+
+## 実行方法
+
+### Node.jsで実行
+```bash
+node javascript/01_variables.js
+```
+
+### ブラウザのコンソールで実行
+1. ブラウザの開発者ツールを開く（F12キー）
+2. Consoleタブを選択
+3. ファイルの内容をコピー＆ペーストして実行

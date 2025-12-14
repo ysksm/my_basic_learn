@@ -1,0 +1,94 @@
+/* タイポグラフィ: テキストのスタイリング */
+
+/* フォントファミリー: 使用するフォントを指定 */
+.font-family-example {
+    font-family: "Arial", "Helvetica", sans-serif;
+    /* 最初のフォントが利用できない場合、次のフォントにフォールバック */
+}
+
+/* フォントサイズ: 文字の大きさを指定 */
+.font-size-example {
+    font-size: 16px;      /* ピクセル単位 */
+    /* その他の単位: em, rem, %, pt など */
+}
+
+.font-size-relative {
+    font-size: 1.5em;     /* 親要素のフォントサイズの1.5倍 */
+}
+
+/* フォントウェイト: 文字の太さを指定 */
+.font-weight-example {
+    font-weight: normal;  /* 通常の太さ（400） */
+    /* font-weight: bold;  太字（700） */
+    /* font-weight: 100;   数値（100-900） */
+}
+
+.bold-text {
+    font-weight: bold;    /* 太字 */
+}
+
+/* フォントスタイル: イタリック体などを指定 */
+.font-style-example {
+    font-style: italic;   /* イタリック体（斜体） */
+    /* font-style: normal; 通常体 */
+}
+
+/* テキスト装飾 */
+.text-decoration-example {
+    text-decoration: underline;  /* 下線 */
+    /* その他: line-through（取り消し線）, overline（上線）, none（なし） */
+}
+
+.no-underline {
+    text-decoration: none;  /* リンクの下線を消す */
+}
+
+/* テキスト配置: 横方向の配置を指定 */
+.text-align-left {
+    text-align: left;     /* 左揃え（デフォルト） */
+}
+
+.text-align-center {
+    text-align: center;   /* 中央揃え */
+}
+
+.text-align-right {
+    text-align: right;    /* 右揃え */
+}
+
+/* 行の高さ: 行間を指定 */
+.line-height-example {
+    line-height: 1.6;     /* フォントサイズの1.6倍 */
+    /* 読みやすさのため、1.5〜1.8が推奨 */
+}
+
+/* 文字間隔 */
+.letter-spacing-example {
+    letter-spacing: 2px;  /* 文字と文字の間隔 */
+}
+
+/* 単語間隔 */
+.word-spacing-example {
+    word-spacing: 5px;    /* 単語と単語の間隔 */
+}
+
+/* テキスト変換 */
+.text-transform-uppercase {
+    text-transform: uppercase;  /* すべて大文字 */
+}
+
+.text-transform-lowercase {
+    text-transform: lowercase;  /* すべて小文字 */
+}
+
+.text-transform-capitalize {
+    text-transform: capitalize; /* 各単語の先頭を大文字 */
+}
+
+/* 使用例:
+<p class="font-family-example">フォントファミリーの例</p>
+<p class="bold-text">太字のテキスト</p>
+<p class="font-style-example">イタリック体のテキスト</p>
+<p class="text-align-center">中央揃えのテキスト</p>
+<p class="line-height-example">行の高さを調整したテキスト。複数行になると違いがわかります。</p>
+*/
